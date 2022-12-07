@@ -1,8 +1,6 @@
 pipeline{
       agent any
-      environment {
-            def mvnHome = tool name: 'M2_HOME', type: 'maven' 
-      }
+  
 
       stages{
              stage('Checkout'){
